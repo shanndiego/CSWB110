@@ -1,0 +1,68 @@
+body {
+    background-color: #6699ff; color: #d5e3ff;
+    font-family: Verdana, Arial, sans-serif; 
+    background-image: url("images/gradientblue.jpg");  
+}
+
+#wrapper { width: 80%;
+			min-width: 700px;
+			max-width:1024px;
+			margin-left:auto;
+			margin-right:auto; 
+			background-color: #ffffff;
+			color:  #000066;
+}
+#main {
+			margin-left: 180px;
+			padding-right: 20px;
+			padding-bottom: 20px;	
+}		
+#header {
+		background-image: url("images/bigfish.gif");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-color: #000066;
+		color:  #ffffff;
+}	
+h1 {
+      text-align:center;   
+      font-size: 3em;
+      padding: 10px 10px 10px 10px;
+      line-height: 150%;
+      text-shadow: #cccccc;            
+    
+}
+
+#nav { 
+	font-weight: bold;
+	float: left;
+	width: 150px;
+
+}
+#nav ul { list-style-type: none;}
+#nav a {text-decoration: none;}
+#nav a:link { color: #3262a3; }
+#nav a:visited {color: #6699ff; }
+#nav a:hover{ color: #cccccc; }
+
+.category  {
+	font-weight: bold;
+	background-color: #ffffff;
+	color: #003366;
+	font-size: 1.1em;
+	text-shadow: 1px 1px 1px #666;
+}
+img {
+	border: none;  
+	}
+footer {	
+	font-size: .70em;
+	font-style: italic;
+	margin-left: 180px;
+	padding: 10px 10px 10px 10px;
+	margin: auto;
+}
+
+
+
+header, nav, main, footer {display: block;}

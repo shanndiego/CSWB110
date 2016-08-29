@@ -1,0 +1,40 @@
+body {
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow;
+    border-width: 5px;
+    border-color: yellow;
+    border-style: solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom:10px;
+    padding-top: 5px;
+   }
+a {
+    color: black ;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+video { float: right;
+		margin-left: 5px;
+		margin-right: 5px;}
+	
+	
+}	
+
+nav { 
+	text-align: center;
+
+
+}
+
+/* This is my first use of CSS I learned in the book, the A link is set as a certain color. and the background color is a green 
+differing from the main page and the about me page.  The border and padding is uniform with the other two pages
+I added a video of my dog in week seven using the textbook as a guide. */

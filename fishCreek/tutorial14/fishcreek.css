@@ -1,0 +1,165 @@
+body {
+    background-color: #6699ff; color: #d5e3ff;
+    font-family: Verdana, Arial, sans-serif; 
+    background-image: url("images/gradientblue.jpg");  
+}
+
+#wrapper { width: 80%;
+			min-width: 700px;
+			max-width:1024px;
+			margin-left:auto;
+			margin-right:auto; 
+			background-color: #ffffff;
+			color:  #000066;
+}
+#main {
+			margin-left: 180px;
+			padding-right: 20px;
+			padding-bottom: 20px;	
+}		
+#header {
+		background-image: url("images/bigfish.gif");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-color: #000066;
+		color:  #ffffff;
+}	
+h1 {
+      text-align:center;   
+      font-size: 3em;
+      padding: 10px 10px 10px 10px;
+      line-height: 150%;
+      text-shadow: #cccccc;            
+    
+}
+
+#nav { 
+	font-weight: bold;
+	float: left;
+	width: 150px;
+
+}
+#nav ul { list-style-type: none;}
+#nav a {text-decoration: none;}
+#nav a:link { color: #3262a3; }
+#nav a:visited {color: #6699ff; }
+#nav a:hover{ color: #cccccc; }
+
+.category  {
+	font-weight: bold;
+	background-color: #ffffff;
+	color: #003366;
+	font-size: 1.1em;
+	text-shadow: 1px 1px 1px #666;
+}
+img {
+	border: none;  
+	}
+footer {	
+	font-size: .70em;
+	font-style: italic;
+	margin-left: 180px;
+	padding: 10px 10px 10px 10px;
+	margin: auto;
+}
+
+#mobile {display: none;}
+#desktop {display: inline;}
+
+
+
+header, #nav, main, footer {display: block;}
+
+@media only screen and (max-width: 1024px) {
+
+body { 		margin: 0;
+			padding: 0;
+			background-color: white;
+			background-image: none;}
+			
+#main {		margin: 0;
+			padding-top: 0;
+			padding-bottom: 0;
+			padding-left: 1em;
+			padding-right: 1em;
+			font-size: 90%;}			
+			
+#wrapper {  width: auto;
+			min-width: 0;
+			margin: 0;}
+				
+h1 { 		margin: 0;							
+			text-align:center;	
+			font-size: 2em;	
+			line-height: 200%;}
+	
+#nav { 		float: none;
+			width: auto;}
+			
+#nav li {	display: inline-block;}
+
+#nav a {	padding: 1em;
+			border-style: none;
+			font-size: 1.2em;}
+				
+#nav ul {	padding: 0;
+			margin: 0;
+			text-align: center;}
+			
+dd { 		margin-bottom: 1em;}
+	
+footer { 	margin: 0;}
+}	
+
+@media only screen and (max-width: 768px) {
+
+#header{	background-image: url("images/lilfish.gif");
+			background-position: center;
+			background-repeat: no-repeat;}
+				
+h1 {		font-size: 1.5em;
+		    line-height: 120%;}
+		    
+#nav a { 	display:block;
+			padding: 0.2em;	
+			font-size: 1.3em;
+			border-bottom: 1px #330000;
+			border-bottom-style: solid;	}
+			
+#nav li { 	display: block;}
+
+#nav ul { 	text-align: left;}
+
+.category { text-shadow: none;}	
+
+#mobile {	display: none;}
+#desktop {	display: inline;}					
+			  	  		 		 			 
+}
+
+table {	border-width: 2px 
+		border-style:solid;
+		border-color: dark-blue;
+		border-collapse: collapse;}
+		
+td {padding: 0.5em; 
+	border-width: 1px;
+	border-style:solid;
+	border-color:dark-blue;} 
+ 
+tr {padding: 0.5em; 
+	border-width: 1px 
+	border-style:solid;
+	border-color:dark-blue;} 
+	
+	label { 	float: left;
+			display: block;
+			text-align: right;
+			width: 8em;
+			padding-right: 10px;
+		}
+input, textarea { 	margin-bottom: 1em;
+					display: block;}
+
+#mysubmit {		    margin-left: 10em;}
+							

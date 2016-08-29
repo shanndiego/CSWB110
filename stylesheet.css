@@ -1,0 +1,59 @@
+body {
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow;
+    border-width: 5px;
+    border-color: yellow;
+    border-style: solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom:10px;
+    padding-top: 5px;
+   }
+h1 { 
+	font-family: Arial, Helvetica, sans-serif; 
+	color: yellow; 
+	}
+a {
+    color: black ;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+nav { 
+	text-align: center;
+
+}
+img { float: right
+	padding-left: 10px;}
+
+table {	border-width: 2px 
+		border-style:solid;
+		border-color: dark-blue;
+		border-collapse: collapse;}
+		
+td {padding: 0.5em; 
+	border-width: 1px;
+	border-style:solid;
+	border-color:dark-blue;} 
+ 
+tr {padding: 0.5em; 
+	border-width: 1px 
+	border-style:solid;
+	border-color:dark-blue;} 
+
+/* This is my first use of CSS I learned in the book, the nav bar is centered
+and the body page has a designated font family and uniform border size with the other pages. 
+
+
+The background color is set to the same color as the aboutme page. The H1 is set to black
+This week i added the tables as studied in the case work, thin border 2x3 which I will modify each week
+
+After I ran the testing in chapter 10, I adjusted the color as a couple of sites advised me, I went with
+a better contrast option green/yellow. */
+

@@ -1,0 +1,41 @@
+body {
+    background-color: #6699ff; color: #d5e3ff;
+    font-family: Verdana, Arial, sans-serif;   
+}
+
+#wrapper { width: 80%;
+			min-width: 700px;
+			max-width:1024px;
+			margin-left:auto;
+			margin-right:auto; 
+}
+
+h1 {
+      text-align:center;               
+    
+}
+
+nav { 
+	font-weight: bold;
+	text-align:center;
+
+}
+
+.category  {
+	font-weight: bold;
+	background-color: #6699ff;
+	color: #003366;
+	font-size: 1.1em;
+	text-shadow: 1px 1px 1px #666;
+}
+img {
+	border: none;  
+	}
+footer {	
+	font-size: .70em;
+	font-style: italic;
+}
+
+footer nav  {
+	text-align:left;
+}
